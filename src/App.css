@@ -1,0 +1,59 @@
+.App{
+  display: flex;
+  position: relative;
+  left: 20%;
+}
+.main_body1 {
+  display: inline-block;
+}
+.main_body{
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  height: 500px;
+  background-color: rgb(185, 185, 185);
+  display:flex;
+  justify-content: space-around;
+ align-items: center;
+ 
+  
+}
+.col-4{
+ display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+
+font-size: 10px;
+}
+h5{
+  position: relative;
+  top: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button {
+  outline: none;
+  width: 50%;
+  height: 30px;
+  background-color: rgb(255, 0, 170);
+  border-radius: 30px;
+  text-align: center;
+ color: aliceblue;
+}
+.card{
+ width: 18rem;
+  padding-bottom: 20px;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+.card:hover{
+  position: relative;
+  top: -1rem;
+  box-shadow: 0.1px 0.1px 20px;
+  opacity:1;
+
+}
+.a{
+  color: white;
+}
